@@ -1,0 +1,10 @@
+package com.employee.services;
+
+import com.employee.model.User;
+
+public interface UserService {
+	  
+	 public User findUserByEmail(String email);
+	 
+	 public void saveUser(User user);
+	}
